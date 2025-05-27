@@ -1,0 +1,560 @@
+[{
+        "id": 1,
+        "isLiked": true,
+        "title": "Road Cycling ",
+        "price": 89.99,
+        "description": "Lightweight and aerodynamic helmet designed for road cyclists.",
+        "category": "Helmets",
+        "image": [
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102520.png",
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102523.png",
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102532.png",
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102526.png"
+        ],
+
+        "rating": {
+            "rate": 4.7,
+            "count": 150
+        }
+    },
+    {
+        "id": 2,
+        "isLiked": false,
+        "title": "Mountain Bike",
+        "price": 95.5,
+        "description": "Durable helmet suitable for mountain biking adventures.",
+        "category": "Helmets",
+        "image": [
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102526.png",
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102523.png",
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102520.png",
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102532.png"
+        ],
+        "rating": {
+            "rate": 4.8,
+            "count": 200
+        }
+    },
+    {
+        "id": 3,
+        "isLiked": true,
+        "title": "Cycling Gloves",
+        "price": 25.0,
+        "description": "Comfortable gloves providing grip and protection during rides.",
+        "category": "Gloves",
+        "image": [
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102532.png",
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102523.png",
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102520.png",
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102526.png"
+        ],
+        "rating": {
+            "rate": 4.5,
+            "count": 120
+        }
+    },
+    {
+        "id": 4,
+        "isLiked": true,
+        "title": "Water Bottle",
+        "price": 15.99,
+        "description": "Insulated water bottle to keep your drinks cold during long rides.",
+        "category": "Accessories",
+        "image": [
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102520.png",
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102523.png",
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102526.png",
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102532.png"
+        ],
+        "rating": {
+            "rate": 4.6,
+            "count": 180
+        }
+    },
+    {
+        "id": 5,
+        "isLiked": false,
+        "title": "Bike Pump",
+        "price": 29.99,
+        "description": "Portable bike pump for quick and easy tire inflation.",
+        "category": "Tools",
+        "image": [
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102522.png",
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102524.png",
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102527.png",
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102528.png"
+        ],
+        "rating": {
+            "rate": 4.4,
+            "count": 95
+        }
+    },
+    {
+        "id": 6,
+        "isLiked": false,
+        "title": "Sunglasses",
+        "price": 49.99,
+        "description": "UV-protective sunglasses designed for cyclists.",
+        "category": "Accessories",
+        "image": [
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102528.png",
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102524.png",
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102527.png",
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102522.png"
+        ],
+        "rating": {
+            "rate": 4.7,
+            "count": 130
+        }
+    },
+    {
+        "id": 7,
+        "isLiked": false,
+        "title": "Bike Lock",
+        "price": 35.0,
+        "description": "Secure lock to keep your bicycle safe when unattended.",
+        "category": "Security",
+        "image": [
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102527.png",
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102524.png",
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102522.png",
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102528.png"
+        ],
+        "rating": {
+            "rate": 4.5,
+            "count": 110
+        }
+    },
+    {
+        "id": 8,
+        "isLiked": false,
+        "title": "Cycling Jersey",
+        "price": 65.0,
+        "description": "Breathable jersey for comfortable cycling sessions.",
+        "category": "Apparel",
+        "image": [
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102524.png",
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102527.png",
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102522.png",
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102528.png"
+        ],
+        "rating": {
+            "rate": 4.6,
+            "count": 140
+        }
+    },
+    {
+        "id": 9,
+        "isLiked": false,
+        "title": "Bike Saddle",
+        "price": 45.0,
+        "description": "Ergonomic saddle for enhanced comfort during rides.",
+        "category": "Components",
+        "image": [
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102530.png",
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102529.png",
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102531.png",
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102528.png"
+        ],
+        "rating": {
+            "rate": 4.3,
+            "count": 85
+        }
+    },
+    {
+        "id": 10,
+        "isLiked": true,
+        "title": "Cycling Shoes",
+        "price": 120.0,
+        "description": "Clipless cycling shoes for efficient pedaling.",
+        "category": "Footwear",
+        "image": [
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102531.png",
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102529.png",
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102530.png",
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102528.png"
+        ],
+        "rating": {
+            "rate": 4.7,
+            "count": 160
+        }
+    },
+    {
+        "id": 11,
+        "isLiked": false,
+        "title": "Road Cycling",
+        "price": 135.05,
+        "description": "High quality road cycling helmet perfect for all types of cyclists.",
+        "category": "Helmets",
+        "image": [
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102528.png",
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102529.png",
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102530.png",
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102531.png"
+        ],
+        "rating": {
+            "rate": 4.3,
+            "count": 202
+        }
+    },
+    {
+        "id": 12,
+        "isLiked": false,
+        "title": "Mountain Bike",
+        "price": 130.79,
+        "description": "High quality mountain bike helmet perfect for all types of cyclists.",
+        "category": "Helmets",
+        "image": [
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102529.png",
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102531.png",
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102530.png",
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102528.png"
+        ],
+        "rating": {
+            "rate": 4.0,
+            "count": 373
+        }
+    },
+    {
+        "id": 13,
+        "isLiked": false,
+        "title": "Cycling Gloves",
+        "price": 116.2,
+        "description": "High quality cycling gloves perfect for all types of cyclists.",
+        "category": "Gloves",
+        "image": [
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102530.png",
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102529.png",
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102531.png",
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102528.png"
+        ],
+        "rating": {
+            "rate": 4.8,
+            "count": 190
+        }
+    },
+    {
+        "id": 14,
+        "isLiked": true,
+        "title": "Product 14",
+        "price": 85.0,
+        "description": "Sample product 14 description.",
+        "category": "Accessories",
+        "image": [
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102528.png",
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102529.png",
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102530.png",
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102531.png"
+        ],
+        "rating": {
+            "rate": 4.7,
+            "count": 142
+        }
+    },
+    {
+        "id": 15,
+        "isLiked": true,
+        "title": "Product 15",
+        "price": 87.5,
+        "description": "Sample product 15 description.",
+        "category": "Helmets",
+        "image": [
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102523.png",
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102520.png",
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102526.png",
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102532.png"
+        ],
+        "rating": {
+            "rate": 3.5,
+            "count": 145
+        }
+    },
+    {
+        "id": 16,
+        "isLiked": false,
+        "title": "Product 16",
+        "price": 90.0,
+        "description": "Sample product 16 description.",
+        "category": "Accessories",
+        "image": [
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102520.png",
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102523.png",
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102526.png",
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102532.png"
+        ],
+        "rating": {
+            "rate": 3.8,
+            "count": 148
+        }
+    },
+    {
+        "id": 17,
+        "isLiked": false,
+        "title": "Product 17",
+        "price": 92.5,
+        "description": "Sample product 17 description.",
+        "category": "Helmets",
+        "image": [
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102526.png",
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102523.png",
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102520.png",
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102532.png"
+        ],
+        "rating": {
+            "rate": 4.1,
+            "count": 151
+        }
+    },
+    {
+        "id": 18,
+        "isLiked": false,
+        "title": "Product 18",
+        "price": 95.0,
+        "description": "Sample product 18 description.",
+        "category": "Accessories",
+        "image": [
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102532.png",
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102526.png",
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102523.png",
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102520.png"
+        ],
+        "rating": {
+            "rate": 4.4,
+            "count": 154
+        }
+    },
+    {
+        "id": 19,
+        "isLiked": false,
+        "title": "Product 19",
+        "price": 97.5,
+        "description": "Sample product 19 description.",
+        "category": "Helmets",
+        "image": [
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102524.png",
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102527.png",
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102522.png",
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102528.png"
+        ],
+        "rating": {
+            "rate": 4.7,
+            "count": 157
+        }
+    },
+    {
+        "id": 20,
+        "isLiked": false,
+        "title": "Product 20",
+        "price": 100.0,
+        "description": "Sample product 20 description.",
+        "category": "Accessories",
+        "image": [
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102527.png",
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102524.png",
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102522.png",
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102528.png"
+        ],
+        "rating": {
+            "rate": 3.5,
+            "count": 160
+        }
+    },
+    {
+        "id": 21,
+        "isLiked": false,
+        "title": "Product 21",
+        "price": 102.5,
+        "description": "Sample product 21 description.",
+        "category": "Helmets",
+        "image": [
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102522.png",
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102524.png",
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102527.png",
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102528.png"
+        ],
+        "rating": {
+            "rate": 3.8,
+            "count": 163
+        }
+    },
+    {
+        "id": 22,
+        "isLiked": false,
+        "title": "Product 22",
+        "price": 105.0,
+        "description": "Sample product 22 description.",
+        "category": "Accessories",
+        "image": [
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102528.png",
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102524.png",
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102527.png",
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102522.png"
+        ],
+        "rating": {
+            "rate": 4.1,
+            "count": 166
+        }
+    },
+    {
+        "id": 23,
+        "isLiked": true,
+        "title": "Product 23",
+        "price": 107.5,
+        "description": "Sample product 23 description.",
+        "category": "Helmets",
+        "image": [
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102527.png",
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102528.png",
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102524.png",
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102522.png"
+        ],
+        "rating": {
+            "rate": 4.4,
+            "count": 169
+        }
+    },
+    {
+        "id": 24,
+        "isLiked": false,
+        "title": "Product 24",
+        "price": 110.0,
+        "description": "Sample product 24 description.",
+        "category": "Accessories",
+        "image": [
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102529.png",
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102530.png",
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102531.png",
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102528.png"
+        ],
+        "rating": {
+            "rate": 4.7,
+            "count": 172
+        }
+    },
+    {
+        "id": 25,
+        "isLiked": false,
+        "title": "Product 25",
+        "price": 112.5,
+        "description": "Sample product 25 description.",
+        "category": "Helmets",
+        "image": [
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102530.png",
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102529.png",
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102531.png",
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102528.png"
+        ],
+        "rating": {
+            "rate": 3.5,
+            "count": 175
+        }
+    },
+    {
+        "id": 26,
+        "isLiked": false,
+        "title": "Product 26",
+        "price": 115.0,
+        "description": "Sample product 26 description.",
+        "category": "Accessories",
+        "image": [
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102531.png",
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102529.png",
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102530.png",
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102528.png"
+        ],
+        "rating": {
+            "rate": 3.8,
+            "count": 178
+        }
+    },
+    {
+        "id": 27,
+        "isLiked": false,
+        "title": "Product 27",
+        "price": 117.5,
+        "description": "Sample product 27 description.",
+        "category": "Helmets",
+        "image": [
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102529.png",
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102530.png",
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102531.png",
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102528.png"
+        ],
+        "rating": {
+            "rate": 4.1,
+            "count": 181
+        }
+    },
+    {
+        "id": 28,
+        "isLiked": true,
+        "title": "Product 28",
+        "price": 120.0,
+        "description": "Sample product 28 description.",
+        "category": "Accessories",
+        "image": [
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102523.png",
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102520.png",
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102526.png",
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102532.png"
+        ],
+        "rating": {
+            "rate": 4.4,
+            "count": 184
+        }
+    },
+    {
+        "id": 29,
+        "isLiked": false,
+        "title": "Product 29",
+        "price": 122.5,
+        "description": "Sample product 29 description.",
+        "category": "Helmets",
+        "image": [
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102520.png",
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102523.png",
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102526.png",
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102532.png"
+        ],
+        "rating": {
+            "rate": 4.7,
+            "count": 187
+        }
+    },
+    {
+        "id": 30,
+        "isLiked": false,
+        "title": "Product 30",
+        "price": 125.0,
+        "description": "Sample product 30 description.",
+        "category": "Accessories",
+        "image": [
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102526.png",
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102523.png",
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102520.png",
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102532.png"
+        ],
+        "rating": {
+            "rate": 3.5,
+            "count": 190
+        }
+    },
+    {
+        "id": 31,
+        "isLiked": false,
+        "title": "Product 30",
+        "price": 125.0,
+        "description": "Sample product 30 description.",
+        "category": "Accessories",
+        "image": [
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102526.png",
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102523.png",
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102520.png",
+            "https://pngimg.com/uploads/bicycle_helmet/bicycle_helmet_PNG102532.png"
+        ],
+        "rating": {
+            "rate": 3.5,
+            "count": 190
+        }
+    }
+]

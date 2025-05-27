@@ -1,0 +1,16 @@
+<svg
+  width="64"
+  height="64"
+  viewBox="0 0 512 512"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <!-- Background circle -->
+  <circle cx="256" cy="256" r="256" fill="#0A84FF" />
+  
+  <!-- Stylized 'A' shape -->
+  <path
+    fill="#fff"
+    d="M169.45 363.34l56.4-98.09 56.42 98.07h37.74L256 154.07l-91.28 209.27h37.73zm89.64-60.28-25.3-44.15-25.31 44.15h50.6z"
+  />
+</svg>
