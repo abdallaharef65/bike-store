@@ -22,12 +22,7 @@ const Home = ({ navigation }) => {
   const [bikeData, setBikeData] = useState(BikeData);
   const [originalData, setOriginalData] = useState(BikeData);
   const HeaderHomePages = () => {
-    const _goBack = () => {
-      console.log("رجوع");
-    };
-
     const _handleSearch = () => {
-      console.log("بحث عن:", searchQuery);
       if (searchQuery.trim() === "") {
         // في حالة أن المستخدم مسح البحث نرجع كل العناصر
         setBikeData(originalData);
@@ -56,15 +51,14 @@ const Home = ({ navigation }) => {
               },
             ]}
           >
-            {/* زر الرجوع */}
-            {/* <Appbar.Action
-              icon={icons.back}
+            <Appbar.Action
+              icon={icons.logout}
               color={COLORS.white}
-              style={styles.icon}
-              onPress={_goBack}
-            /> */}
+              style={{ ...styles.icon }}
+              size={30}
+              onPress={() => navigation.navigate("Login")}
+            />
 
-            {/* حقل البحث */}
             <View style={styles.searchContainer}>
               <TextInput
                 placeholder="Search..."
@@ -78,7 +72,7 @@ const Home = ({ navigation }) => {
                 <TouchableOpacity
                   onPress={() => {
                     setSearchQuery("");
-                    setBikeData(originalData); // إرجاع كل البيانات
+                    setBikeData(originalData);
                   }}
                   style={styles.clearButton}
                 >

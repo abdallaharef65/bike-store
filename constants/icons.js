@@ -30,6 +30,7 @@ export const doc = require("../assets/icons/doc.png");
 export const bike = require("../assets/icons/bike.png");
 export const truck_wheel = require("../assets/icons/truck-wheel.png");
 export const car_tire = require("../assets/icons/car-tire.png");
+export const logout = require("../assets/icons/logout.png");
 
 export default {
   back,
@@ -64,4 +65,5 @@ export default {
   bike,
   truck_wheel,
   car_tire,
+  logout,
 };

@@ -26,18 +26,33 @@ const LoginScreen = ({ navigation }) => {
   const [isLoading, setIsLoading] = useState(false);
 
   const rotation = useRef(new Animated.Value(0)).current;
+  let continuousRotation;
 
   const startRotation = () => {
-    Animated.loop(
-      Animated.timing(rotation, {
-        toValue: 1,
-        duration: 1500,
-        useNativeDriver: true,
-      })
-    ).start();
+    // حركة واحدة (360°)
+    Animated.timing(rotation, {
+      toValue: 5,
+      duration: 5000,
+      useNativeDriver: true,
+    }).start(() => {
+      // بعد الحركة الأولى، ابدأ الدوران المستمر
+      continuousRotation = Animated.loop(
+        Animated.timing(rotation, {
+          toValue: 1,
+          duration: 1000,
+          useNativeDriver: true,
+        })
+      );
+      rotation.setValue(0); // إعادة القيمة إلى 0 للبداية الجديدة
+      continuousRotation.start();
+    });
   };
 
   const stopRotation = () => {
+    if (continuousRotation) {
+      continuousRotation.stop();
+      continuousRotation = null;
+    }
     rotation.stopAnimation();
     rotation.setValue(0);
   };
@@ -48,6 +63,10 @@ const LoginScreen = ({ navigation }) => {
     } else {
       stopRotation();
     }
+
+    return () => {
+      stopRotation(); // تنظيف عند الخروج من الشاشة
+    };
   }, [isLoading]);
 
   const rotateInterpolate = rotation.interpolate({
@@ -82,7 +101,7 @@ const LoginScreen = ({ navigation }) => {
         setTimeout(() => {
           setIsLoading(false);
           navigation.navigate("Home");
-        }, 1500);
+        }, 2500);
       } else {
         setIsLoading(false);
         Toast.show({

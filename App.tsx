@@ -22,10 +22,7 @@ export default function App() {
               headerShown: false,
             }}
             initialRouteName="Login"
-          >
-            {/* {!isLogin ? (
-            ) : (
-            )} */}
+          >       
             <Stack.Screen name="Login" component={LoginComponent} />
             <Stack.Screen name="ProductDetails" component={ProductDetails} />
             <Stack.Screen name="Home" component={Tabs} />
